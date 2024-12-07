@@ -1,4 +1,4 @@
-# Option Pricing Models
+# Pricify Option Modeling Suite
 
 ## Introduction
 This repository showcases a streamlined web application for calculating the prices of European options using three distinct models:
