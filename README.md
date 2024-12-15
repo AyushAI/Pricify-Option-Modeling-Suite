@@ -19,7 +19,20 @@ The option pricing models are implemented in **Python 3.7**. Current stock price
 
 To optimize performance, previously fetched data is cached using the `requests-cache` library in an SQLite database. This ensures efficiency by avoiding duplicate API requests when testing or adjusting parameters for the same instrument.  
 
-This project was developed as part of the course *Special Functions (Applied Mathematics)* during a Master's program in Software Engineering.  
+This project was developed as part of the course *Special Functions (Applied Mathematics)* during a Master's program in Software Engineering. 
+
+## Streamlit web app  
+
+1. Black-Scholes model    
+![black-scholes-demo](./demo/streamlit-webapp-BS.gif)
+
+2. Monte Carlo Option Pricing  
+![monte-carlo-demo](./demo/streamlit-webapp-MC.gif)
+
+3. Binomial model    
+![binomial-tree-demo](./demo/streamlit-webapp-BC.gif)
+
+
 
 ## Project Structure
 The repository includes:  
